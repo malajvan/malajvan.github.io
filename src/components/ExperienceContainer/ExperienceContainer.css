@@ -1,4 +1,4 @@
-.project {
+.experience {
   padding: 2em;
   margin: 0 auto;
   text-align: center;
@@ -6,33 +6,33 @@
   transition: transform 0.2s linear;
 }
 
-.project:hover {
+.experience:hover {
   transform: translateY(-7px);
 }
 
-.project__description {
+.experience__description {
   margin-top: 1em;
 }
 
-.project__stack {
+.experience__stack {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: 1.2em 0;
 }
 
-.project__stack-item {
+.experience__stack-item {
   margin: 0.5em;
   font-weight: 500;
   font-size: 0.8rem;
   color: var(--clr-fg-alt);
 }
 
-.project .link--icon {
+.experience .link--icon {
   margin-left: 0.5em;
 }
 
-.project__image {
+.experience__image {
   max-width: 80%;
   /* Ensure the image doesn't exceed its container width */
   height: auto;
@@ -41,4 +41,5 @@
   /* Remove any potential inline spacing */
   margin: 25px auto;
   /* Center the image horizontally */
+ ;
 }

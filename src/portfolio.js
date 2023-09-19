@@ -15,7 +15,7 @@ const about = {
   social: {
     linkedin: 'https://linkedin.com',
     github: 'https://github.com',
-  },
+  }
 }
 
 const projects = [
@@ -50,6 +50,41 @@ const projects = [
   },
 ]
 
+const experiences = [
+  // projects can be added an removed
+  // if there are no projects, Projects section won't show up
+
+
+  {
+    name: 'Exp 3',
+    image: "https://upload.wikimedia.org/wikipedia/commons/6/6a/PNG_Test.png",
+    description:
+      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+    stack: ['SASS', 'TypeScript', 'React'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+  },
+  {
+    name: 'Exp 3',
+    image: "https://upload.wikimedia.org/wikipedia/commons/6/6a/PNG_Test.png",
+    description:
+      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+    stack: ['SASS', 'TypeScript', 'React'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+  },
+  {
+    name: 'Exp 3',
+    image: "https://upload.wikimedia.org/wikipedia/commons/6/6a/PNG_Test.png",
+    description:
+      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+    stack: ['SASS', 'TypeScript', 'React'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+  },
+]
+
+
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
@@ -72,4 +107,4 @@ const contact = {
   email: 'johnsmith@mail.com',
 }
 
-export { header, about, projects, skills, contact }
+export { header, about, experiences, projects, skills, contact }
