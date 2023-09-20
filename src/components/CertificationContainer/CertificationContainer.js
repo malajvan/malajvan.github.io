@@ -1,5 +1,5 @@
 import uniqid from 'uniqid'
-import GitHubIcon from '@material-ui/icons/GitHub'
+import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import LaunchIcon from '@material-ui/icons/Launch'
 import './CertificationContainer.css'
 
@@ -13,15 +13,7 @@ const CertificationContainer = ({ certification }) => (
     />
     <h3>{certification.name}</h3>
     <p className='certification_date'>{certification.date}</p>
-    {certification.stack && (
-      <ul className='certification__stack'>
-        {certification.stack.map((item) => (
-          <li key={uniqid()} className='certification__stack-item'>
-            {item}
-          </li>
-        ))}
-      </ul>
-    )}
+    
 
     {certification.sourceCode && (
       <a
@@ -29,7 +21,7 @@ const CertificationContainer = ({ certification }) => (
         aria-label='source code'
         className='link link--icon'
       >
-        <GitHubIcon />
+        <LinkedInIcon />
       </a>
     )}
 
