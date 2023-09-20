@@ -49,6 +49,28 @@ const projects = [
     livePreview: 'https://github.com',
   },
 ]
+const certifications = [
+  // projects can be added an removed
+  // if there are no projects, Projects section won't show up
+
+
+  {
+    name: 'AZ-900',
+    image: "https://github.com/malajvan/malajvan.github.io/raw/main/public/img/az-900.png",
+    date:'September 2023',
+    linkedin: 'https://github.com',
+    accreditation: 'https://github.com',
+  },
+  {
+    name: 'Lakehouse Fundamentals',
+    image: "https://raw.githubusercontent.com/malajvan/malajvan.github.io/main/public/img/lakehouse-fund.png",
+    date:'August 2023',
+    linkedin: 'https://github.com',
+    accreditation: 'https://credentials.databricks.com/0ab7668f-e98a-47fc-919a-aa58dd390fec#gs.5zde7a',
+  },
+
+]
+
 
 const experiences = [
   // projects can be added an removed
@@ -107,4 +129,4 @@ const contact = {
   email: 'johnsmith@mail.com',
 }
 
-export { header, about, experiences, projects, skills, contact }
+export { header, about, certifications, experiences, projects, skills, contact }

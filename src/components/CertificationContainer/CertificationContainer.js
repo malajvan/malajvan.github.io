@@ -1,4 +1,4 @@
-import uniqid from 'uniqid'
+// import uniqid from 'uniqid'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import LaunchIcon from '@material-ui/icons/Launch'
 import './CertificationContainer.css'
@@ -15,9 +15,9 @@ const CertificationContainer = ({ certification }) => (
     <p className='certification_date'>{certification.date}</p>
     
 
-    {certification.sourceCode && (
+    {certification.linkedin && (
       <a
-        href={certification.sourceCode}
+        href={certification.linkedin}
         aria-label='source code'
         className='link link--icon'
       >
@@ -25,9 +25,9 @@ const CertificationContainer = ({ certification }) => (
       </a>
     )}
 
-    {certification.livePreview && (
+    {certification.accreditation && (
       <a
-        href={certification.livePreview}
+        href={certification.accreditation}
         aria-label='live preview'
         className='link link--icon'
       >
