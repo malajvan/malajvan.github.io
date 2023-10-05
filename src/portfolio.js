@@ -23,30 +23,30 @@ const projects = [
   // if there are no projects, Projects section won't show up
   {
     name: 'E2E Azure Pitchfork Data Analysis',
-    image: "https://raw.githubusercontent.com/KhoiTienNguyen/KhoiTienNguyen.github.io/main/images/AMT.png",
+    image: "https://github.com/malajvan/malajvan.github.io/raw/main/public/img/e2eazflow.png",
     description:
       'Implemented Azure Data Factory for seamless data transfer, ensured data quality with Databricks and Spark, and enabled informed decisions through Tableau visualizations.',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    stack: ['Azure','Spark', 'Tableau'],
+    sourceCode: 'https://github.com/malajvan/e2e-AZflow',
+    livePreview: 'https://public.tableau.com/app/profile/van.pham8444/viz/Tableau_dashboard_16965479880500/Dashboard1?publish=yes',
   },
   {
-    name: 'Project 2',
-    image: "https://upload.wikimedia.org/wikipedia/commons/6/6a/PNG_Test.png",
+    name: 'Spotify Popularity Predictions',
+    image: "https://github.com/malajvan/malajvan.github.io/raw/main/public/img/mfcc.png",
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      "Extracted audio features, applied KNN algorithm, and achieved an 89% accurate prediction rate for song popularity compared to Spotify's API",
+    stack: ['scikit-learn', 'audio analysis','PyTorch'],
+    sourceCode: 'https://github.com/malajvan/MFCC',
+    // livePreview: 'https://github.com',
   },
   {
-    name: 'Project 3',
-    image: "https://upload.wikimedia.org/wikipedia/commons/6/6a/PNG_Test.png",
+    name: 'malajvan.github.io',
+    image: "https://github.com/malajvan/malajvan.github.io/raw/main/public/img/malajvan.png",
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Personal Portfolio showcasing Projects and Experience',
+    stack: ['HTML','CSS', 'React'],
+    sourceCode: 'https://github.com/malajvan/malajvan.github.io',
+    livePreview: 'https://malajvan.github.io',
   },
 ]
 const certifications = [
@@ -113,18 +113,7 @@ const experiences = [
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
-  'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+'Python','ETL','Git', 'SQL', 'Microsoft Azure', 'AWS'
 ]
 
 const contact = {
