@@ -78,31 +78,34 @@ const experiences = [
 
 
   {
-    name: 'Exp 3',
-    image: "https://upload.wikimedia.org/wikipedia/commons/6/6a/PNG_Test.png",
+    name: 'Data Architect',
+    company: 'DDMAL Lab, McGill University',
+    image: "https://raw.githubusercontent.com/malajvan/malajvan.github.io/main/public/img/LinkedMusic.png",
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Spearheaded the development of the data lake architecture and ETL framework for a new project LinkedMusic.',
+    stack: ['Data Lake', 'Python', 'ETL', 'OpenRefine'],
+    sourceCode: 'https://github.com/DDMAL/linkedmusic-datalake/discussions',
+    livePreview: 'https://linkedmusic.ca',
   },
   {
-    name: 'Exp 3',
-    image: "https://upload.wikimedia.org/wikipedia/commons/6/6a/PNG_Test.png",
+    name: 'Software Developer',
+    company: 'DDMAL Lab, McGill University',
+    image: "https://raw.githubusercontent.com/malajvan/malajvan.github.io/main/public/img/Rodan.png",
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Oversaw team growth, boosted software performance, and streamlined deployment for increased efficiency and security.',
+    stack: ['Python', 'Ansible', 'Docker', 'PostgreSQL'],
+    sourceCode: 'https://github.com/DDMAL/Rodan',
+    livePreview: 'https://rodan2.simssa.ca',
   },
   {
-    name: 'Exp 3',
-    image: "https://upload.wikimedia.org/wikipedia/commons/6/6a/PNG_Test.png",
+    name: 'Data Science Intern',
+    company: 'Vivas Technology',
+    image: "https://raw.githubusercontent.com/malajvan/malajvan.github.io/main/public/img/vivas.png",
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Reduced manual data entry, empowered decision-making with dashboards, accelerated data analysis through automation.',
+    stack: ['Superset','Python','Docker', 'Clickhouse DBMS'],
+    // sourceCode: 'https://github.com',
+    // livePreview: 'https://github.com',
   },
 ]
 

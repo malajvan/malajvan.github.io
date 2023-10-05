@@ -7,6 +7,7 @@ import './ExperienceContainer.css'
 const ExperienceContainer = ({ experience }) => (
   <div className='experience'>
     <h3>{experience.name}</h3>
+    <text>{experience.company}</text>
     <img
       src={experience.image} // Assuming 'experience.image' contains the URL of the image
       alt={experience.name}// You can set an appropriate alt text
