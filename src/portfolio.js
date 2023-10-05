@@ -22,10 +22,10 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'E2E Azure Pitchfork Data Analysis',
     image: "https://raw.githubusercontent.com/KhoiTienNguyen/KhoiTienNguyen.github.io/main/images/AMT.png",
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'Implemented Azure Data Factory for seamless data transfer, ensured data quality with Databricks and Spark, and enabled informed decisions through Tableau visualizations.',
     stack: ['SASS', 'TypeScript', 'React'],
     sourceCode: 'https://github.com',
     livePreview: 'https://github.com',
