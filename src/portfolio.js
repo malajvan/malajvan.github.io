@@ -1,8 +1,8 @@
 
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://malajvan.github.io/',
+  title: 'HVP.',
 }
 
 const about = {
@@ -10,7 +10,7 @@ const about = {
   name: 'Hong Van Pham',
   role: 'Data Developer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    "I'm interested in Data Science and Enginnering, ",
   resume: 'https://example.com',
   social: {
     linkedin: 'https://linkedin.com',
@@ -126,7 +126,7 @@ const skills = [
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'vanhongpham01@gmail.com',
 }
 
 export { header, about, certifications, experiences, projects, skills, contact }
