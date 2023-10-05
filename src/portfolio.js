@@ -8,13 +8,13 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Hong Van Pham',
-  role: 'Data Developer',
+  // role: 'Data Developer',
   description:
-    "I'm interested in Data Science and Enginnering, ",
+    "A data-driven problem solver with a strong background in software development and math. I'm interested in data science and engineering.",
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://linkedin.com/in/vanhpham',
+    github: 'https://github.com/malajvan',
   }
 }
 
