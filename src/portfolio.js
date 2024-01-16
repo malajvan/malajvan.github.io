@@ -78,7 +78,7 @@ const experiences = [
 
 
   {
-    name: 'Data Architect',
+    name: 'Data Engineer',
     company: 'DDMAL Lab, McGill University',
     image: "https://raw.githubusercontent.com/malajvan/malajvan.github.io/main/public/img/LinkedMusic.png",
     description:
